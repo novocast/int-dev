@@ -14,7 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/dev/aleena/', 'DemoTwoController@index');
-  return response();
-});
