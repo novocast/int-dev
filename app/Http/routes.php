@@ -1,5 +1,7 @@
 <?php
 
+use ../../DemoTwoController;
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -10,6 +12,10 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+
+Route::get('Controller', 'DemoTwoController@showWelcome');
+
+Route::get('../../DemoTwoController', ['uses' => 'DemoTwoController@index']);
 
 Route::get('/', function () {
     return view('welcome');
