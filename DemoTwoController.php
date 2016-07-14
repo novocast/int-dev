@@ -16,7 +16,7 @@ class DemoTwoController extends Controller
     
     public function index()
     {
-        $array = array("2","3","true","string");
+        $array = array("2","'3'","true","'string'");
         
         print_r($array);
     }
