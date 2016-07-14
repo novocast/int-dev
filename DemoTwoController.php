@@ -14,7 +14,7 @@ class DemoTwoController extends Controller
         return view::make("Hello World);
     }
     
-    //DemoTwoController::index(return
+    DemoTwoController::index(return)
 }
 
 ?>
