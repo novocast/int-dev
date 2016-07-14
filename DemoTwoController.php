@@ -14,12 +14,12 @@ class DemoTwoController extends Controller
         return view::make("Hello World);
     }
     
-    public function DemoTwoController index()
-    {
-        
-        
-        return index::json(array(2,'3',true,'string'));
-    }
+   public function index()
+   {
+       
+   }
+   
+    
 }
 
 ?>
