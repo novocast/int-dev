@@ -1,3 +1,5 @@
 <?php
 
-Route::get('controller', 'DemoTwoController@showWelcome');
+Route::get('controller', 'DemoTwoController@index');
+
+?>
