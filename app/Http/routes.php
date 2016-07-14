@@ -13,6 +13,8 @@ use ../../DemoTwoControllers;
 |
 */
 
+Route::get('Controller', 'DemoTwoController@showWelcome');
+
 Route::get('/', function () {
     return view('welcome');
 });
