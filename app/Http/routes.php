@@ -15,7 +15,7 @@ use ../../DemoTwoControllers;
 
 Route::get('Controller', 'DemoTwoController@showWelcome');
 
-Route::get('../../DemoTwoControllers', ['uses' => 'DemoTwoControllers@showWelcome']);
+Route::get('../../DemoTwoControllers', ['uses' => 'DemoTwoControllers@index']);
 
 Route::get('/', function () {
     return view('welcome');
