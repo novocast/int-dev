@@ -14,7 +14,7 @@ class DemoTwoController extends Controller
         return view::make("Hello World);
     }
     
-    public function index()
+    function index()
     {
         $array = array("2","'3'","true","'string'");
         
