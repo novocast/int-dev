@@ -18,7 +18,7 @@ class DemoTwoController extends Controller
     {
         $array = array("2","'3'","true","'string'");
         
-        print_r($array);
+        return view::json($array->toArray());
     }
     
 }
