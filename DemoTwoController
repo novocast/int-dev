@@ -1,11 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
-
-use App\DavidP143;
-use App\Http\Controllers\DemoTwoController;
-
-class DavidController extends DemoTwoController
+class DemoTwoController extends Controller
 {
     /**
      * Show the profile for the given user.
@@ -13,8 +8,13 @@ class DavidController extends DemoTwoController
      * @param  int  $id
      * @return Response
      */
-    public function showProfile($id)
+     
+    public function showWelcome()
     {
-        return view('user.profile', ['user' => User::findOrFail($id)]);
+        return view::make("Hello World);
     }
+    
+    //DemoTwoController::index(return
 }
+
+?>
