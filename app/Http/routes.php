@@ -1,6 +1,6 @@
 <?php
 
-use ../../DemoTwoControllers;
+use ../../DemoTwoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +15,7 @@ use ../../DemoTwoControllers;
 
 Route::get('Controller', 'DemoTwoController@showWelcome');
 
-Route::get('../../DemoTwoControllers', ['uses' => 'DemoTwoControllers@index']);
+Route::get('../../DemoTwoController', ['uses' => 'DemoTwoController@index']);
 
 Route::get('/', function () {
     return view('welcome');
