@@ -16,7 +16,9 @@ class DemoTwoController extends Controller
     
     public function DemoTwoController index()
     {
-        return ;
+        
+        
+        return index::json(array(2,'3',true,'string'));
     }
 }
 
