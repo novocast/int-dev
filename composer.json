@@ -47,4 +47,7 @@
     "config": {
         "preferred-install": "dist"
     }
+     "require": {
+      "guzzlehttp/guzzle": "~6.0"
+   }
 }
