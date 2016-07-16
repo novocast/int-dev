@@ -17,4 +17,9 @@ class DemoTwoController extends Controller
     {
         return view('user.profile', ['user' => User::findOrFail($id)]);
     }
+    public function DemoTwoController 
+    {
+    return response()->json(['name' => 'String', 'price' => 5, 'order' => 'true', 'quantity' => '3']);
+    }
+    
 }
