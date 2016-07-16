@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dev/aleena/{id}', 'DemoTwoController@DemoTwoController');
+Route::get('/dev/aleena/', 'DemoTwoController@DemoTwoController');
